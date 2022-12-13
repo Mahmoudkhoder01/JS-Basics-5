@@ -21,7 +21,6 @@
                 let num = number.split(" ")[0];
 
                 for (let i = 1; i <= num; i++) {
-                    console.log(i);
                     result+= i;
                 }
                 document.getElementById("display").textContent = result;
@@ -29,10 +28,8 @@
             } else if (number.charAt(number.length-1) === "x") {
                 let result = 1;
                 let num = number.split(" ")[0];
-                console.log(num);
 
                 for (let i = 1; i <= num; i++) {
-                    console.log(i);
                     result*= i;     
                 }
                 document.getElementById("display").textContent = result;
